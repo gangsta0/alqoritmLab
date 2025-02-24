@@ -1,1 +1,1 @@
-# alqoritmLab
+# Alqoritm lab Baxisov Bakir
