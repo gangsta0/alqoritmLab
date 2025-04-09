@@ -1,6 +1,6 @@
 import random
 n = 10 
-siyahi = [random.uniform(-7, 7) for _ in range(n)]
+siyahi = [random.uniform(-4, 18) for _ in range(n)]
 print("random numbers: ")
 for eded in siyahi:
     print(eded)
