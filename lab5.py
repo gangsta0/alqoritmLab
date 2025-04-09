@@ -1,12 +1,7 @@
-C = [5, 7, 9, 11, 14, 16, 18]  
-cem = 0        
-say = 0         
-for eded in C:
-    if eded % 3 == 2:   
-        cem += eded    
-        say += 1        
-if say > 0:
-    ededi_orta = cem / say
-    print("ededi orta: ", ededi_orta)
-else:
-    print("uygun eded tapilmadi")
+import math
+a = [1, 2, 1.5, 0.5, 1, 1, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 2, 1, 0.5, 1, 1]
+hasil = 1
+for eded in a:
+    hasil *= eded  
+S = math.cos(hasil)
+print("S: ", S)
